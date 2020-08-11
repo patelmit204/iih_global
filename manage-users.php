@@ -106,7 +106,7 @@ if(isset($_POST['submit'])){
                      </div>
                      <div class="form-group">
                         <label>Mobile <span class="text-danger">*</span></label>
-                        <input type="tel" class="tel form-control" name="mobile" id="mobile"  placeholder="Enter mobile" required value="<?php echo $mobile?>">
+                        <input type="tel" class="tel form-control" name="mobile" id="mobile"  placeholder="Enter mobile" pattern="[6-9]{1}[0-9]{9}" required value="<?php echo $mobile?>">
                      </div>
 					 <div class="form-group">
                         <label>Image <span class="text-danger">*</span></label>
