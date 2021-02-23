@@ -5,3 +5,4 @@ echo "Finally know how to pull from live";
 echo "Learning git from local to live";
 echo "yes 1";
 echo "local to staging to live";
+echo "mansi from local to staging to live";
